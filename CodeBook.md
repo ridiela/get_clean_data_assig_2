@@ -1,12 +1,12 @@
 CodeBook
 ===================================================================
 
-** this dataset contains the mean value for each pair subjct_value VS columm
+## this dataset contains the mean value for each pair subjct_value VS columm
 
-*** "subjects": a number designing one distinct subject in the experiment
-*** "value": a description of the activity the subject did
+### "subjects": a number designing one distinct subject in the experiment
+### "value": a description of the activity the subject did
 
-*** The rest of the dataset is structured as follows:
+###The rest of the dataset is structured as follows:
 
 * Fields starting with "t" make reference to time-domain signals
 * Fields starting with "f" make reference to  frequency-fomain signas, obtained after an fft transformation
@@ -14,7 +14,7 @@ CodeBook
 * Accelerometer and Gyroscope name values extracet from those sensors
 * XYZ name axis of accelerometr and Syroscope
 
-*** Feature Labels
+###Feature Labels
 
  [1] "subjects"                                                     
  [2] "value"                                                        
